@@ -13,4 +13,3 @@ describe('ttBay Footer', () => {
         })
     })
 })
-

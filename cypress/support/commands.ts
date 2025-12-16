@@ -98,6 +98,7 @@ Cypress.Commands.add('toggleNotification', () => {
         }
     )
 });
+
 Cypress.Commands.add("uploadImage", () => {
     cy.get('img[data-test="upload-btn"]').click().attachFile(['/images/iphone12.png', '/images/test.png']);
     //cy.its('response.statusCode').should('be.oneOf', [200, 304])
