@@ -105,3 +105,4 @@ Cypress.Commands.add("uploadImage", () => {
     cy.get('textarea[data-test="description"]').should("exist").click().type(itemInfo.itemFeatures);
     cy.contains("Save Item").should("exist").click();
 })
+
